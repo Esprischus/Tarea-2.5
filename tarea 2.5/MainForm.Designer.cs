@@ -47,7 +47,7 @@ namespace tarea_2._
 			// lblLogIn
 			// 
 			this.lblLogIn.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.lblLogIn.Location = new System.Drawing.Point(128, -17);
+			this.lblLogIn.Location = new System.Drawing.Point(135, -19);
 			this.lblLogIn.Name = "lblLogIn";
 			this.lblLogIn.Size = new System.Drawing.Size(152, 77);
 			this.lblLogIn.TabIndex = 0;

@@ -34,8 +34,9 @@ namespace tarea_2._
 		{
 			if (txtContraseña.Text== "hola"&& txtNombre.Text=="Sans"){
 				fmrMenu xd= new fmrMenu();
-				this.Close();
 				xd.Show();
+				this.Hide();
+
 			}
 			else{
 				MessageBox.Show("Nombre y/o Contraseña equivocados!", "Error");
