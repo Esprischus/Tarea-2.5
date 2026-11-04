@@ -71,6 +71,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="fmrCoordenadas.resx">
+      <DependentUpon>fmrCoordenadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmrDistancia2puntos.resx">
+      <DependentUpon>fmrDistancia2puntos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
